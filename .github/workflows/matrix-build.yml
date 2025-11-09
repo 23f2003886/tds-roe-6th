@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
 
-      - name: matrix-07514bc
+      - name: matrix-53f8771
         run: echo "Building for Node.js version ${{ matrix.version }}"
 
       - name: Generate build artifact
